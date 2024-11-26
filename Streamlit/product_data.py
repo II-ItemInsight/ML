@@ -1,6 +1,6 @@
 import json
 from naver_lowest import get_naver_api_credentials, search_product, parse_json_response
-from Tavily_chroma import get_reviews_and_ratings
+from Streamlit.label_rating import get_reviews_and_ratings
 
 
 def fetch_online_product_data(product_data):
